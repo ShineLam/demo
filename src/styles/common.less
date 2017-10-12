@@ -1,0 +1,219 @@
+body {
+  font-size: 0.32rem;
+  background: #f2f2f2;
+}
+@titleColor: #000;
+@tipColor: #999;
+@textColor: #1c67c3;
+@subColor: #666;
+@mainColor: #E60084;
+@altColor: #333;
+@lineColor: #ddd;
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+button {
+  text-align: center;
+}
+
+.pst-rel {
+  position: relative;
+}
+
+.common-btn {
+  display: inline-block;
+  width: 100%;
+  background: @mainColor;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 7px 0;
+  outline: 0;
+  border: 0;
+}
+
+.btn-disabled {
+  background: #ccc;
+}
+
+.left-arrow,
+.right-arrow {
+  position: relative;
+}
+
+.right-arrow:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid #9a9a9a;
+  border-bottom: 1px solid #9a9a9a;
+  transform: rotate(320deg);
+  -webkit-transform: rotate(317deg);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -4px;
+}
+
+.left-arrow:before {
+  content: "";
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 0.1rem solid #ccc;
+  border-width: 0.1rem 0 0 0.1rem;
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
+  top: 50%;
+  margin-top: -0.4rem;
+  left: 0.3rem;
+}
+
+.arrow,
+.rearrow {
+  position: relative;
+  margin-right: 6px;
+}
+
+.arrow:before,
+.rearrow:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #CCC;
+  border-width: 0 0 1px 1px;
+  transform: rotate(315deg);
+  top: 3px;
+  right: -10px;
+}
+
+.rearrow:before {
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  top: 6px;
+}
+
+.btn {
+  display: inline-block;
+  color: @altColor;
+  border-radius: 0.3rem;
+  text-align: center;
+  padding: 0.3rem 0;
+  font-size: 1.6rem;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-align: center;
+  width: 6rem;
+
+  &.btn-primary {
+    background-color: @mainColor;
+    color: #fff;
+  }
+
+  &.btn-general {
+    background-color: #fff;
+    color: @altColor;
+    border: 0.1rem solid @lineColor;
+  }
+  //按钮禁用
+  &:disabled {
+    background-color: @lineColor;
+  }
+}
+// 头部组件 start
+
+.nav-title {
+  background-color: @mainColor;
+  font-size: 0.32rem;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+
+  .nav-box {
+    padding: 0 0.1rem;
+    height: 50px;
+    line-height: 50px;
+
+    .nav-left,
+    .nav-right {
+      position: absolute;
+      top: 0;
+      margin: 0.05rem 0.1rem 0;
+    }
+
+    .nav-left {
+      left: 0;
+
+      a {
+        display: inline-block;
+        width: 0.25rem;
+        height: 0.25rem;
+      }
+    }
+
+    .nav-right {
+      right: 0;
+    }
+
+    .title {
+      margin: 0 auto;
+      width: 100%;
+      color: #FFF;
+    }
+
+    .left-arrow:before {
+      width: 0.12rem;
+      height: 0.12rem;
+      top: 50%;
+      margin-top: -6px;
+      border: 2px solid #fff;
+      border-width: 2px 0 0 2px;
+    }
+
+    .icon-home,
+    .icon-mine {
+      display: inline-block;
+      width: 0.35rem;
+      height: 0.35rem;
+      text-align: right;
+      margin-top: 0.06rem;
+    }
+
+    .icon-home {
+      background: url("../assets/icon-home.png") no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .icon-mine {
+      background: url("../assets/icon-mine.png") no-repeat center;
+      background-size: 100% 100%;
+    }
+  }
+}
+// 头部组件 end
