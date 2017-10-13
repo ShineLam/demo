@@ -69,48 +69,44 @@
 <style lang="less" scoped>
 	@import "../../styles/common.less";
 	.bill-detail-large{
-		margin-top: 56px;
+		margin-top: 1rem;
 		.bill-address{
-			padding: 1.0rem;
+			padding: .2rem;
 			background: #fff;
-			margin-bottom: 1.0rem;
+			margin-bottom: .2rem;
 			.bill-address-title{
 				font-weight: bold;
-				font-size: 1.4rem;
-				line-height: 2.2rem;
+				line-height: .44rem;
 			}
 			.bill-address-user, .bill-address-name{
-				font-size: 1.4rem;
 				color: @altColor;
-				line-height: 2.2rem;
+				line-height: .44rem;
 			}
 		}
 		.bill-info{
 			background: #fff;
-			padding: 1.0rem;
-			font-size: 1.4rem;
+			padding: .2rem;
 			color: @subColor;
 			
 			.bill-info-item{
-				line-height: 2.5rem;
+				line-height: .5rem;
 			}
 		}				
 		.bill-content{
 			background: #fff;			
-			margin-bottom: 1.0rem;
-			padding: 1.0rem 0;
+			margin-bottom: .2rem;
+			padding: .2rem 0;
 			.bill-item-title{
-				font-size: 1.4rem;
-				padding: 1.0rem 0;
-				margin: 0 1.0rem;
-				border-bottom: .1rem solid @lineColor;
+				padding: .2rem 0;
+				margin: 0 .2rem;
+				border-bottom: .02rem solid @lineColor;
 				color: @altColor;
 			}
 			.order-main{
-				padding: 1.0rem 1.0rem 0;
+				padding: .2rem .2rem 0;
 				.order-img{
 					width: 30%;
-					height: 80px;
+					height: 1.6rem;
 					img{
 						width: 100%;
 						height: 100%;
@@ -119,31 +115,27 @@
 				.order-detail{
 					width: 67%;
 					>.clearfix{
-						margin-bottom: 5px;				
-						.order-name{
-							font-size: 1.4rem;
-						}
+						margin-bottom: .1rem;
 						.order-price{
-							font-size: 1.4rem;
 							font-weight: bold;
 						}
 						.order-prev-price{
-							font-size: 1.2rem;
+							font-size: .24rem;
 							color: @tipColor;
 						}
 						.order-num{
-							width: 25px;
-							height: 25px;
+							width: .5rem;
+							height: .5rem;
 							background: #fff;
 							outline: 0;
-							border: 1px solid #ddd;
+							border: .02rem solid #ddd;
 						}
 						.order-count{
-							padding: .8rem;
+							padding: .16rem;
 						}
 					}
 					.order-vender{
-						font-size: 1.2rem;
+						font-size: .24rem;
 						color: @tipColor;
 					}				
 				}	
@@ -156,11 +148,10 @@
 		bottom: 0;
 		width: 100%;
 		>div{
-			padding: .5rem 1.0rem;
+			padding: .1rem .2rem;
 			background: #fff;
 			>a{
-				margin-left: 1.0rem;
-				font-size: 1.4rem;
+				margin-left: .2rem;
 			}
 		}
 	}

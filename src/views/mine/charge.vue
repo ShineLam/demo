@@ -29,11 +29,11 @@
 <style lang="less" scoped>
 	@import "../../styles/common.less";
 	.charge{
-		margin-top: 60px;
+		margin-top: 1.2rem;
 		.charge-method{
 			background: #fff;
-			padding: 10px 1.0rem;
-			margin-bottom: 10px;
+			padding: .2rem;
+			margin-bottom: .2rem;
 			a{
 				color: @altColor;
 				width: 100%;
@@ -42,26 +42,25 @@
 		}
 		.charge-input{
 			background: #fff;
-			padding: 10px 0;			
+			padding: .2rem 0;
 			>input{
 				border: 0;
 				outline: 0;
-				font-size: 1.4rem;
 			}
 			>label{
-				font-size: 1.6rem;
+				font-size: .34rem;
 				float: left;
-				margin-right: 1.0rem;
-				padding-left: 1.0rem;
+				margin-right: .2rem;
+				padding-left: .2rem;
 				color: @altColor;
 			}
 		}
 		.charge-next-box{
-			margin-top: 10px;
-			padding: 1.0rem;
+			margin-top: .2rem;
+			padding: .2rem;
 			button{
 				width: 100%;
-				padding: 12px 0;
+				padding: .24rem 0;
 				background: #128FEC;
 			}
 		}
