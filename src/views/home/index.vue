@@ -71,7 +71,7 @@
 	.home{
 		.home-popup-box{
 			.vux-popup-top{
-				margin-top: 106px;
+				margin-top: 3rem;
 			}
 			ul.pop-pro-type{
 				>li{
@@ -84,7 +84,7 @@
 		.home-pro-type{
 			z-index: 1000;
 			position: fixed;
-			top: 50px;
+			top: 1rem;
 			left: 0;
 			background: #fff;
 			width: 100%;
@@ -92,23 +92,22 @@
 				float: left;
 				width: 90%;
 				.classify-tip-box{
-					height: 50px;
-					line-height: 50px;
+					height: 1rem;
+					line-height: 1rem;
 					color: @tipColor;
-					font-size: .28rem;
 					padding-left: .10rem;
 				}
 				ul.home-classify-box{
-					height: 50px;
+					height: 1rem;
 	  				position: relative;
-	  				width: 480px;
+	  				width: 10rem;
 					>li{
-						width: 60px;
-						height: 50px;
+						width: 1.2rem;
+						height: 1rem;
 						display:inline-block;
 						float: left;
 						text-align: center;
-						line-height: 50px;
+						line-height: 1rem;
 						>a{
 							color: @altColor;
 							font-size: .28rem;
@@ -118,8 +117,8 @@
 			}
 			.toggle{
 				width: 10%;
-				height: 50px;
-				line-height: 50px;
+				height: 1rem;
+				line-height: 1rem;
 				text-align: center;
 				>a{
 					color: @altColor;
@@ -127,19 +126,19 @@
 			}
 		}
 		ul.home-pro-content{
-			margin-top: 100px;
+			margin-top: 2rem;
 			.pro-item{
-				margin-bottom: 10px;
+				margin-bottom: .2rem;
 				background: #fff;
 				.pro-img-box{
-					height: 150px;
+					height: 3rem;
 					img{
 						width: 100%;
 						height: 100%;
 					}
 				}
 				.pro-info-box{
-					padding: 10px .10rem;
+					padding: .2rem .2rem;
 					.pro-detail{
 						.pro-out{
 							font-size: .24rem;
@@ -147,7 +146,6 @@
 						}
 						.pro-name{
 							color: @titleColor;
-							font-size: .28rem;
 							font-weight: bold;
 						}
 					}

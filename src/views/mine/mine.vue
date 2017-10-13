@@ -121,17 +121,17 @@
 <style lang="less" scoped>
 	@import "../../styles/common.less";
 	.user{
-		margin-top: 60px;
+		margin-top: 1.2rem;
 		background: #f2f2f2;
 		.user-top{
-			padding: 20px .1rem;
-			border-bottom: 1px solid #eee;
+			padding: .4rem .1rem;
+			border-bottom: .02rem solid #eee;
 			background: #fff;
 			.user-avator{
-				margin-right: 20px;
+				margin-right: .4rem;
 				img{
-					width: 50px;
-					height: 50px;
+					width: 1rem;
+					height: 1rem;
 					border-radius: 50%;
 				}
 			}
@@ -146,8 +146,8 @@
 					.icon-vip{
 						background: url(../../assets/mine/vip.png) no-repeat center;
 						display: inline-block;
-						width: 20px;
-						height: 20px;
+						width: .4rem;
+						height: .4rem;
 						vertical-align: bottom;
 					}
 				}
@@ -155,17 +155,17 @@
 		}
 		.user-bill{
 			background: #fff;
-			margin-bottom: 10px;
+			margin-bottom: .2rem;
 			.user-bill-bar{
-				padding: 20px 0;
+				padding: .4rem 0;
 				li{
 					float: left;
 					width: 33%;
 					text-align: center;
 					i.icon-bill{
 						display: inline-block;
-						width: 30px;
-						height: 30px;
+						width: .6rem;
+						height: .6rem;
 						border-radius: 50%;
 					}
 					i.icon-prepay{
@@ -187,23 +187,23 @@
 		.user-resort{
 			background: #fff;
 			color: @altColor;
-			margin-bottom: 10px;
+			margin-bottom: .2rem;
 			.user-resort-top{
 				font-size: .28rem;
-				border-bottom: 1px solid #eee;
-				padding: 5px .1rem;
+				border-bottom: .02rem solid #eee;
+				padding: .1rem .1rem;
 
 			}
 			.user-resort-box{
 				text-align: center;
 				font-size: .24rem;
-				padding: 10px 0;
-				border-bottom: 1px solid #eee;
+				padding: .2rem 0;
+				border-bottom: .02rem solid #eee;
 				>a{
 					color: @altColor;
 					float: left;
 					width: 24%;
-					border-right: 1px solid #ddd;
+					border-right: .02rem solid #ddd;
 					span{
 						color: @subColor;
 					}
@@ -218,8 +218,8 @@
 					border: 0;
 					.icon-sale{
 						display: inline-block;
-						width: 30px;
-						height: 30px;
+						width: .6rem;
+						height: .6rem;
 					}
 					.icon-ban{
 						background: url(../../assets/mine/icon-ban.png) no-repeat center;
@@ -238,13 +238,13 @@
 		}
 		.user-info-list{
 			background: #fff;
-			margin-bottom: 10px;
+			margin-bottom: .2rem;
 			>ul{
 				padding: 0 .1rem;
 				li.info-item{
 					background: #fff;
-					padding: 10px 0;
-					border-bottom: 1px solid @lineColor;
+					padding: .2rem 0;
+					border-bottom: .02rem solid @lineColor;
 					a{
 						font-size: .24rem;
 						color: @altColor;

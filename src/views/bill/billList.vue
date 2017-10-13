@@ -68,21 +68,20 @@
 	@import "../../styles/common.less";
 	.bill{		
 		.bill-type-box{
-			top: 56px;
+			top: 1.2rem;
 			width: 100%;
 			position: fixed;
 			background: #fff;
 			.bill-type{	
-				padding: 0 1.0rem;			
+				padding: 0 .2rem;
 				.bill-type-item{
 					float: left;
 					width: 33%;
 					text-align: center;
-					height: 4rem;
-					line-height: 4rem;
+					height: .8rem;
+					line-height: .8rem;
 					>a{
 						display: inline-block;
-						font-size: 1.4rem;
 						color: @altColor;
 						width: 100%;
 						height: 100%;
@@ -90,21 +89,18 @@
 				}
 				.bill-type-item.active{
 					color: @mainColor;
-					border-bottom: .3rem solid @mainColor;
+					border-bottom: .06rem solid @mainColor;
 				}
 			}	
 		}			
 		.bill-content{
-			margin-top: 120px;
+			margin-top: 2.4rem;
 			.bill-item{
 				background: #fff;
-				margin-bottom: 1.0rem;
+				margin-bottom: .2rem;
 				.bill-btn{
 					text-align: right;
-					padding: 1.0rem;			
-					>a{
-						font-size: 1.4rem;
-					}
+					padding: .2rem;
 				}
 				.vux-swiper-item{
 					img{
@@ -115,20 +111,19 @@
 				
 				.bill-title{
 					color: @altColor;
-					padding: 1.0rem 0;
-					font-size: 1.4rem;
-					margin: 0 1.0rem;
-					border-bottom: 1px solid @lineColor;
+					padding: .2rem 0;
+					margin: 0 .2rem;
+					border-bottom: .02rem solid @lineColor;
 					.bill-status{
 						color: @tipColor;
 					}
 				}
 				.order-main{
-					padding: 1.0rem 1.0rem 0;
+					padding: .2rem .2rem 0;
 					color: @altColor;
 					.order-img{
 						width: 30%;
-						height: 80px;
+						height: 1.6rem;
 						img{
 							width: 100%;
 							height: 100%;
@@ -137,31 +132,31 @@
 					.order-detail{
 						width: 67%;
 						>.clearfix{
-							margin-bottom: 5px;				
+							margin-bottom: .1rem;
 							.order-name{
-								font-size: 1.4rem;
+
 							}
 							.order-price{
-								font-size: 1.4rem;
+
 								font-weight: bold;
 							}
 							.order-prev-price{
-								font-size: 1.2rem;
+								font-size: .24rem;
 								color: @tipColor;
 							}
 							.order-num{
-								width: 25px;
-								height: 25px;
+								width: .5rem;
+								height: .5rem;
 								background: #fff;
 								outline: 0;
-								border: 1px solid #ddd;
+								border: .02rem solid #ddd;
 							}
 							.order-count{
-								padding: .8rem;
+								padding: .16rem;
 							}
 						}
 						.order-vender{
-								font-size: 1.2rem;
+								font-size: .24rem;
 								color: @tipColor;
 							}				
 					}

@@ -68,70 +68,69 @@
 				height: 100%;
 			}
 		}
-		margin-top: 60px;
+		margin-top: 1.2rem;
 		background: #fff;
 		.order-title{
-			margin-top: 10px;
-			padding: 0 1.0rem;
+			margin-top: .2rem;
+			padding: 0 .2rem;
 			.order-reduce{
 				display: inline-block;
 				border: 1px solid @textColor;
 				color: @textColor;
-				font-size: 1.2rem;
-				padding: 0 3px;
+				font-size: .24rem;
+				padding: 0 .06rem;
 			}
 			.order-prog{
 				color: @subColor;
-				font-size: 1.2rem;
+				font-size: .24rem;
 			}
 		}
 		.order-main{
-			padding: 15px 1.0rem;
-			border-bottom: 1px solid #eee;
-			padding-bottom: 20px;
+			padding: .3rem .2rem;
+			border-bottom: .02rem solid #eee;
+			padding-bottom: .4rem;
 			.order-detail{
 				>.clearfix{
-					margin-bottom: 5px;				
+					margin-bottom: .1rem;
 					.order-name{
-						font-size: 1.4rem;
+
 					}
 					.order-price{
-						font-size: 1.4rem;
 						font-weight: bold;
 					}
 					.order-prev-price{
-						font-size: 1.2rem;
+						font-size: .24rem;
 						color: @tipColor;
 					}					
 				}
 				.order-num-box{
 					text-align: right;
 					.order-num{
-						width: 25px;
-						height: 25px;
+						width: .5rem;
+						height: .5rem;
 						background: #fff;
 						outline: 0;
-						border: 1px solid #ddd;
+						border: .02rem solid #ddd;
 					}
 					.order-count{
-						padding: .8rem;
+						padding: .16rem;
 					}
 					.order-disabled-btn{
 						color: @tipColor;
 					}
 				}
 				.order-vender{
-						font-size: 1.2rem;
+						font-size: .24rem;
 						color: @tipColor;
 					}				
 			}
 		}				
 		.order-requr{
-			font-size: 1.6rem;
+			font-size: 0.36rem;
 			font-weight: bold;
 			color: @titleColor;
 			text-align: right;
-			padding: 10px 1.0rem;
+			padding: .2rem;
 		}
 		.order-pay{
 			background: #fff;
@@ -140,14 +139,13 @@
 			bottom: 0;
 			border-top: 1px solid #eee;
 			width: 100%;
-			padding: 10px 0;
+			padding: .2rem 0;
 			>div{
-				padding: 0 1.0rem;
+				padding: 0 .2rem;
 				p{
-					font-size: 1.4rem;
 					color: @subColor;
 					span.order-act-pay{
-						font-size: 1.6rem;
+						font-size: 0.36rem;
 						color: @mainColor;
 						font-weight: bold;
 					}
@@ -160,11 +158,11 @@
 					width: 100%;
 					background: @mainColor;
 					color: #fff;
-					font-size: 1.5rem;
-					height: 35px;
-					line-height: 35px;
-					border-radius: 2px;
-					margin-top: 5px;
+					font-size: 0.36rem;
+					height: .7rem;
+					line-height: .7rem;
+					border-radius: .06rem;
+					margin-top: .1rem;
 				}
 			}			
 		}

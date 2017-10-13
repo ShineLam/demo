@@ -37,39 +37,37 @@
 <style lang="less" scoped>
 	@import "../../styles/common.less";
 	.wallet{
-		margin-top: 60px;
+		margin-top: 1.2rem;
 		.wallet-total{
 			background: #fff;
 			text-align: center;
-			padding: 30px 0;
+			padding: .6rem 0;
 			span{
-				font-size: 1.4rem;
 				color: @altColor;
 			}
 			p{
-				margin-top: 10px;
-				font-size: 1.8rem;
+				margin-top: .2rem;
+				font-size: 0.36rem;
 				font-weight: bold;
 			}
 		}
 		.wallet-detail{
 			background: #fff;
-			border-top: 1px solid #ddd;
-			font-size: 1.4rem;
+			border-top: .02rem solid #ddd;
 			color: @altColor;
 			>div{
 				width: 49%;
 				text-align: center;
-				padding: 5px 0;
+				padding: .1rem 0;
 			}
 			>div.wallet-detail-t{
-				border-right: 1px solid #ddd;
+				border-right: .02rem solid #ddd;
 			}
 		}
 		.wallet-padding{
-			margin: 20px 1.0rem;
+			margin: .1rem .2rem;
 			>a{				
-				margin-bottom: 20px;				
+				margin-bottom: .4rem;
 			}
 			a.wallet-charge-btn{
 				background: #128FEC;
