@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="login">
-    <div class="logo">
-
+    <div class="login-logo">
+      logo
     </div>
     <div class="login-form">
       <div class="login-input">
@@ -38,10 +38,13 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 @import "../../styles/common.less";
-body {
-  background: #FFF;
+.login-logo {
+  color: @tipColor;
+  text-align: center;
+  font-size: .72rem;
+  margin: .6rem auto;
 }
 .login-form {
   font-size: .24rem;
@@ -53,25 +56,16 @@ body {
       border-bottom: 1px solid #DBDBDB;
     }
     &+.login-input{
-      margin-top: 12px;
+      margin-top: 24px;
     }
   }
   .forget-pwd {
     text-align: right;
+    margin-top: 6px;
      a {
        font-size: .2rem;
        color: #CCC;
      }
-  }
-  .login-btn {
-    button {
-      width: 100%;
-      height: 40px;
-      letter-spacing: 3px;
-      color: #FFF;
-      border-radius: 3px;
-      background: @mainColor;
-    }
   }
   .vux-divider {
     font-size: .2rem;
@@ -79,6 +73,7 @@ body {
   }
   .login-quick-btn {
     text-align: center;
+    margin: 16px auto 36px;
     button {
       width: 40%;
       height: 30px;
@@ -88,6 +83,17 @@ body {
       border-radius: 3px;
       color: @mainColor;
     }
+  }
+}
+.login-btn {
+  margin: .48rem auto .72rem;
+  button {
+    width: 100%;
+    height: 40px;
+    letter-spacing: 3px;
+    color: #FFF;
+    border-radius: 3px;
+    background: @mainColor;
   }
 }
 .login-bottom {
