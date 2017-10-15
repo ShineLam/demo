@@ -12,25 +12,25 @@
 		<ul class="bill-content">
 			<li v-for="item in 4" class="bill-item">
 				<router-link to="/billDetail">
-					<div class="bill-title clearfix">
-						<div class="pull-left">
+					<div class="bill-title">
+						<div class="bill-title-no">
 							订单编号：
 							<span>84584993400021</span>
 						</div>
-						<div class="pull-right bill-status">待发货</div>
+						<div class="bill-status">待发货</div>
 					</div>
-					<div class="order-main clearfix">
-						<div class="pull-left order-img">
+					<div class="order-main">
+						<div class="order-img">
 							<img src="../../assets/home/goods1.jpg" alt="" />
 						</div>
-						<div class="pull-right order-detail">
-							 <div class="clearfix">
-							 	<span class="pull-right order-price">￥269</span>
+						<div class="order-detail">
+							 <div class="order-detail-item">							 	
 							 	<p class="order-name">17年（秋季品）藏蓝色针织套装</p>
+							 	<span class="order-price">￥269</span>
 							 </div>
-							 <div class="clearfix order-vender">
-							 	<span class="pull-right">x<span>1</span></span>
+							 <div class="order-detail-item order-vender">							 	
 							 	<p>OSA11周年庆典女装专场</p>
+							 	<span class="">x<span>1</span></span>
 							 </div>
 						</div>
 					</div>
@@ -71,20 +71,19 @@
 			top: 1.2rem;
 			width: 100%;
 			position: fixed;
-			background: #fff;
+			background: #fff;			
 			.bill-type{	
 				padding: 0 .2rem;
+				display: flex;
 				.bill-type-item{
-					float: left;
-					width: 33%;
+					flex: 1;
 					text-align: center;
-					height: .8rem;
-					line-height: .8rem;
 					>a{
 						display: inline-block;
 						color: @altColor;
 						width: 100%;
 						height: 100%;
+						padding: .2rem 0;
 					}
 				}
 				.bill-type-item.active{
@@ -95,6 +94,7 @@
 		}			
 		.bill-content{
 			margin-top: 2.4rem;
+			font-size: .28rem;
 			.bill-item{
 				background: #fff;
 				margin-bottom: .2rem;
@@ -114,34 +114,44 @@
 					padding: .2rem 0;
 					margin: 0 .2rem;
 					border-bottom: .02rem solid @lineColor;
+					display: flex;
 					.bill-status{
 						color: @tipColor;
+						flex: .3;
+						text-align: right;
+					}
+					.bill-title-no{
+						flex: 1;
 					}
 				}
 				.order-main{
 					padding: .2rem .2rem 0;
 					color: @altColor;
+					display: flex;
 					.order-img{
-						width: 30%;
-						height: 1.6rem;
+						flex: 1;
+						margin-right: 2%;
 						img{
 							width: 100%;
 							height: 100%;
 						}
 					}
 					.order-detail{
-						width: 67%;
-						>.clearfix{
-							margin-bottom: .1rem;
-							.order-name{
-
+						flex: 2;
+						>.order-detail-item{
+							margin-bottom: .2rem;
+							display: flex;
+							>p{
+								flex: 1;
+							}
+							>span{
+								flex: .2;
+								text-align: right;
 							}
 							.order-price{
-
 								font-weight: bold;
 							}
 							.order-prev-price{
-								font-size: .24rem;
 								color: @tipColor;
 							}
 							.order-num{
@@ -156,7 +166,6 @@
 							}
 						}
 						.order-vender{
-								font-size: .24rem;
 								color: @tipColor;
 							}				
 					}

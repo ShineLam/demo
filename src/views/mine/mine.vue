@@ -2,7 +2,7 @@
 	<div class="user">
 		<nav-title :title="title" :showHome="true" :showMine="true"></nav-title>
 		<div class="clearfix user-top">
-			<div class="pull-left">
+			<div class="user-avator-box">
 				<p class="user-avator">
 					<img src="../../assets/mine/avator.jpg" alt="" />
 				</p>
@@ -124,11 +124,12 @@
 		margin-top: 1.2rem;
 		background: #f2f2f2;
 		.user-top{
-			padding: .4rem .1rem;
+			padding: .4rem .2rem;
 			border-bottom: .02rem solid #eee;
 			background: #fff;
-			.user-avator{
-				margin-right: .4rem;
+			display: flex;
+			.user-avator-box{
+				flex: 1;
 				img{
 					width: 1rem;
 					height: 1rem;
@@ -136,12 +137,13 @@
 				}
 			}
 			.user-top-rt{
+				flex: 4;
 				>p{
-					font-size: .28rem;
+					font-size: .30rem;
 					color: @altColor;
 				}
 				>span{
-					font-size: .24rem;
+					font-size: .28rem;
 					color: @subColor;
 					.icon-vip{
 						background: url(../../assets/mine/vip.png) no-repeat center;
@@ -158,9 +160,9 @@
 			margin-bottom: .2rem;
 			.user-bill-bar{
 				padding: .4rem 0;
+				display: flex;
 				li{
-					float: left;
-					width: 33%;
+					flex: 1;
 					text-align: center;
 					i.icon-bill{
 						display: inline-block;
@@ -178,7 +180,7 @@
 						background: #fcf7e6 url(../../assets/mine/all.png) no-repeat center;
 					}
 					p{
-						font-size: .24rem;
+						font-size: .28rem;
 						color: @subColor;
 					}
 				}
@@ -191,18 +193,18 @@
 			.user-resort-top{
 				font-size: .28rem;
 				border-bottom: .02rem solid #eee;
-				padding: .1rem .1rem;
+				padding: .2rem .2rem;
 
 			}
 			.user-resort-box{
 				text-align: center;
-				font-size: .24rem;
+				font-size: .28rem;
 				padding: .2rem 0;
 				border-bottom: .02rem solid #eee;
+				display: flex;
 				>a{
 					color: @altColor;
-					float: left;
-					width: 24%;
+					flex: 1;
 					border-right: .02rem solid #ddd;
 					span{
 						color: @subColor;
@@ -240,20 +242,20 @@
 			background: #fff;
 			margin-bottom: .2rem;
 			>ul{
-				padding: 0 .1rem;
+				padding: 0 .2rem;
 				li.info-item{
 					background: #fff;
 					padding: .2rem 0;
 					border-bottom: .02rem solid @lineColor;
 					a{
-						font-size: .24rem;
+						font-size: .28rem;
 						color: @altColor;
 						width: 100%;
 						display: inline-block;
 						>span{
-							font-size: .1rem;
+							font-size: .28rem;
 							color: @tipColor;
-							margin-right: .1rem;
+							margin-right: .2rem;
 						}
 					}
 				}
