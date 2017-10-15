@@ -5,12 +5,12 @@
 			<span>可用余额(元)</span>
 			<p>90.00</p>
 		</div>
-		<div class="wallet-detail clearfix">
-			<div class="pull-left wallet-detail-t">
+		<div class="wallet-detail">
+			<div class="wallet-detail-t">
 				<p>总金额（元）</p>
 				<span>90.00</span>
 			</div>
-			<div class="pull-right wallet-detail-r">
+			<div class="l-right wallet-detail-r">
 				<p>提现中的金额（元）</p>
 				<span>90.00</span>
 			</div>
@@ -55,17 +55,19 @@
 			background: #fff;
 			border-top: .02rem solid #ddd;
 			color: @altColor;
+			display: flex;
+			font-size: .28rem;
 			>div{
-				width: 49%;
+				flex: 1;
 				text-align: center;
-				padding: .1rem 0;
+				padding: .2rem 0;
 			}
 			>div.wallet-detail-t{
 				border-right: .02rem solid #ddd;
 			}
 		}
 		.wallet-padding{
-			margin: .1rem .2rem;
+			margin: .4rem .2rem;
 			>a{				
 				margin-bottom: .4rem;
 			}

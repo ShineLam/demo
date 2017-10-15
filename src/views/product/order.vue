@@ -9,18 +9,18 @@
     		</swiper>
 		</div>
 		<div class="order-title">
-			<span class="order-reduce">省40.35元</span>
+			<!--<span class="order-reduce">省40.35元</span>-->
 			<span class="order-prog">已享受购物优惠8.5折</span>
 		</div>
 		<div class="order-main">			
 			<div class="order-detail">
-				 <div class="clearfix">
-				 	<span class="pull-right order-price">￥269</span>
+				 <div class="order-pro-name">
 				 	<p class="order-name">17年（秋季品）藏蓝色针织套装</p>
+				 	<span class="order-price">￥269</span>
 				 </div>
-				 <div class="clearfix order-vender">
-				 	<s class="pull-right">￥818</s>
+				 <div class="order-vender">
 				 	<p>OSA11周年庆典女装专场</p>
+				 	<s>￥818</s>				 	
 				 </div>
 				 <div class="clearfix order-num-box">
 				 	<button class="order-num order-disabled-btn">-</button>
@@ -30,7 +30,7 @@
 			</div>
 		</div>
 		<div class="order-requr">
-			￥206-￥40.35=￥228.65
+			<span>￥206 </span> * <span>1</span> = <span>￥228.65</span>
 		</div>
 		<div class="order-pay">
 			<div>
@@ -77,12 +77,12 @@
 				display: inline-block;
 				border: 1px solid @textColor;
 				color: @textColor;
-				font-size: .24rem;
+				font-size: .28rem;
 				padding: 0 .06rem;
 			}
 			.order-prog{
 				color: @subColor;
-				font-size: .24rem;
+				font-size: .28rem;
 			}
 		}
 		.order-main{
@@ -90,24 +90,23 @@
 			border-bottom: .02rem solid #eee;
 			padding-bottom: .4rem;
 			.order-detail{
-				>.clearfix{
+				>.order-pro-name{
 					margin-bottom: .1rem;
+					display: flex;
 					.order-name{
-
+						flex: 1;
 					}
 					.order-price{
 						font-weight: bold;
-					}
-					.order-prev-price{
-						font-size: .24rem;
-						color: @tipColor;
+						flex: .2;
 					}					
 				}
 				.order-num-box{
 					text-align: right;
+					margin-top: .2rem;
 					.order-num{
-						width: .5rem;
-						height: .5rem;
+						width: .6rem;
+						height: .6rem;
 						background: #fff;
 						outline: 0;
 						border: .02rem solid #ddd;
@@ -120,9 +119,16 @@
 					}
 				}
 				.order-vender{
-						font-size: .24rem;
-						color: @tipColor;
-					}				
+					font-size: .28rem;
+					color: @tipColor;
+					display: flex;
+					>s{
+						flex: .2;
+					}
+					>p{
+						flex: 1;
+					}
+				}				
 			}
 		}				
 		.order-requr{

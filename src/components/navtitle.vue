@@ -1,6 +1,6 @@
 <!-- 头部组件 -->
 <template>
-	<div class="nav-title clearfix">
+	<div class="nav-title">
 		<div class="nav-box">
 			<div class="nav-left">
 				<a href="javascript:void(0)" onclick="window.history.go(-1)" class="left-arrow"></a>

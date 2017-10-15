@@ -34,6 +34,7 @@
 			background: #fff;
 			padding: .2rem;
 			margin-bottom: .2rem;
+			font-size: .28rem;
 			a{
 				color: @altColor;
 				width: 100%;
@@ -48,7 +49,6 @@
 				outline: 0;
 			}
 			>label{
-				font-size: .34rem;
 				float: left;
 				margin-right: .2rem;
 				padding-left: .2rem;
@@ -60,7 +60,7 @@
 			padding: .2rem;
 			button{
 				width: 100%;
-				padding: .24rem 0;
+				padding: .14rem 0;
 				background: #128FEC;
 			}
 		}

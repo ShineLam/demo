@@ -103,7 +103,7 @@ button {
   position: absolute;
   width: .12rem;
   height: .12rem;
-  border: .02rem solid #CCC;
+  border: .02rem solid @altColor;
   border-width: 0 0 .02rem .02rem;
   transform: rotate(315deg);
   top: .06rem;
@@ -122,11 +122,11 @@ button {
   border-radius: .06rem;
   text-align: center;
   padding: .08rem 0;
-  font-size: 0.24rem;
+  font-size: 0.28rem;
   text-decoration: none;
   outline: none;
   border: none;
-  width: 1.4rem;
+  width: 1.8rem;
 
   &.btn-primary {
     background-color: @mainColor;
@@ -153,26 +153,25 @@ button {
   top: 0;
   z-index: 999;
   width: 100%;
-
   .nav-box {
-    padding: 0 0.1rem;
+    padding: 0 0.2rem;
     height: 1rem;
     line-height: 1rem;
-
+    position: relative;
     .nav-left,
     .nav-right {
       position: absolute;
       top: 0;
-      margin: 0.05rem 0.1rem 0;
+      margin: 0.12rem 0.2rem 0;
     }
 
     .nav-left {
+      position: absolute;
       left: 0;
-
       a {
         display: inline-block;
-        width: 0.25rem;
-        height: 0.25rem;
+        width: 0.45rem;
+        height: 0.45rem;
       }
     }
 
@@ -187,8 +186,8 @@ button {
     }
 
     .left-arrow:before {
-      width: 0.12rem;
-      height: 0.12rem;
+      width: 0.24rem;
+      height: 0.24rem;
       top: 50%;
       margin-top: -0.12rem;
       border: .04rem solid #fff;
@@ -198,8 +197,8 @@ button {
     .icon-home,
     .icon-mine {
       display: inline-block;
-      width: 0.35rem;
-      height: 0.35rem;
+      width: 0.45rem;
+      height: 0.45rem;
       text-align: right;
       margin-top: 0.06rem;
     }

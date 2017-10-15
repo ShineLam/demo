@@ -23,11 +23,11 @@
 						<img src="../../assets/home/goods1.jpg" alt="" />
 					</div>
 					<div class="pro-info-box">
-						<div class="pro-detail clearfix">
-							<span class="pro-out pull-right">剩5天</span>
-							<p class="pro-name">全场210元起 雅漾舒护活泉喷雾300ml</p>
+						<div class="pro-detail">							
+							<p class="pro-name">全场210元起 雅漾</p>
+							<span class="pro-out">剩5天</span>
 						</div>
-						<p class="pro-intro">增强肌肤耐受性，降低敏感度</p>
+						<p class="pro-intro">增强肌肤耐受性，降低度</p>
 					</div>
 				</router-link>
 			</li>
@@ -71,16 +71,26 @@
 	.home{
 		.home-popup-box{
 			.vux-popup-top{
-				margin-top: 3rem;
+				margin-top: 1.9rem;
 			}
-			ul.pop-pro-type{
-				>li{
+			.pop-pro-type{
+				background: #fff;
+				border-top: .02px solid @lineColor;
+				li{
 					float: left;
 					width: 25%;
-					text-align: center;
+					text-align: center;					
+					>a{
+						width: 100%;
+						height: 100%;
+						padding: .4rem 0;
+						display: inline-block;
+						font-size: .28rem;
+						color: @altColor;
+					}
 				}
 			}
-		}
+		}		
 		.home-pro-type{
 			z-index: 1000;
 			position: fixed;
@@ -91,23 +101,23 @@
 			.classify{
 				float: left;
 				width: 90%;
-				.classify-tip-box{
-					height: 1rem;
-					line-height: 1rem;
+				padding-left: .2rem;
+				.classify-tip-box{					
 					color: @tipColor;
-					padding-left: .10rem;
+					padding: .2rem 0;
+					font-size: .28rem;
 				}
-				ul.home-classify-box{
-					height: 1rem;
+				ul.home-classify-box{					
 	  				position: relative;
-	  				width: 10rem;
+	  				width: 9.6rem;
+	  				display: flex;
 					>li{
-						width: 1.2rem;
-						height: 1rem;
+						flex: 1;
 						display:inline-block;
 						float: left;
 						text-align: center;
-						line-height: 1rem;
+						padding: .2rem 0;
+						max-width: 1.2rem;
 						>a{
 							color: @altColor;
 							font-size: .28rem;
@@ -117,12 +127,8 @@
 			}
 			.toggle{
 				width: 10%;
-				height: 1rem;
-				line-height: 1rem;
 				text-align: center;
-				>a{
-					color: @altColor;
-				}
+				padding: .2rem 0;
 			}
 		}
 		ul.home-pro-content{
@@ -140,35 +146,26 @@
 				.pro-info-box{
 					padding: .2rem .2rem;
 					.pro-detail{
+						display: flex;
+						line-height: .48rem;
 						.pro-out{
-							font-size: .24rem;
+							font-size: .28rem;
 							color: @tipColor;
+							flex: .2;
 						}
 						.pro-name{
+							flex: 1;
+							font-size: .30rem;
 							color: @titleColor;
 							font-weight: bold;
 						}
 					}
 					.pro-intro{
 						color: @textColor;
-						font-size: .24rem;
+						font-size: .28rem;
 					}
 				}
 			}
 		}
-	}
-	.pop-pro-type{
-		background: #fff;
-		border-top: 1px solid @lineColor;
-		li{
-			float: left;
-			width: 24%;
-			text-align: center;
-			padding: 1.0rem 0;
-			>a{
-				font-size: .28rem;
-				color: @altColor;
-			}
-		}
-	}
+	}	
 </style>
