@@ -21,9 +21,9 @@
 					<div class="order-detail">
 						<div class="order-detail-item">							
 							<p class="order-name">17年（秋季品）藏蓝色针织套装</p>
-							<span class="order-price">￥269</span>
+							<span class="font-weight">￥269</span>
 						</div>
-						<div class="order-detail-item order-vender">							
+						<div class="order-detail-item tip-color">							
 							<p>OSA11周年庆典女装专场</p>
 							<span>x<span>1</span></span>
 						</div>
@@ -144,25 +144,6 @@
 							flex: .2;
 							text-align: right;
 						}
-						.order-price{
-							font-weight: bold;
-						}
-						.order-prev-price{
-							color: @tipColor;
-						}
-						.order-num{
-							width: .6rem;
-							height: .6rem;
-							background: #fff;
-							outline: 0;
-							border: .02rem solid #ddd;
-						}
-						.order-count{
-							padding: .16rem;
-						}
-					}
-					.order-vender{
-						color: @tipColor;
 					}				
 				}	
 			}	
