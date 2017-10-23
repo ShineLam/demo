@@ -36,7 +36,7 @@
 			<div>
 				<p>总金额
 					<span class="order-act-pay">￥218.65</span>
-					<span class="order-pay-tips">(已省￥559.35)</span>
+					<span class="tip-color">(已省￥559.35)</span>
 				</p>
 				<a href="javascript:void(0)" class="order-pay-btn">结&nbsp;&nbsp;算</a>
 			</div>			
@@ -154,10 +154,7 @@
 						font-size: 0.36rem;
 						color: @mainColor;
 						font-weight: bold;
-					}
-					span.order-pay-tips{
-						color: @tipColor;
-					}
+					}					
 				}
 				.order-pay-btn{
 					display: inline-block;

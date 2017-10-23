@@ -10,6 +10,9 @@ body {
 @altColor: #333;
 @lineColor: #ddd;
 
+.tip-color{
+	color: @tipColor;
+}
 .pull-left {
   float: left;
 }
@@ -24,11 +27,40 @@ body {
   clear: both;
   height: 0;
 }
-
 .clearfix {
   zoom: 1;
 }
 
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+// 字体大小
+.font-12{
+   font-size: .24rem; 
+}
+.font-14{
+   font-size: .28rem; 
+}
+.font-16{
+   font-size: .32rem; 
+}
+.font-18{
+   font-size: .36rem; 
+}
+.font-22{
+   font-size: .44rem; 
+}
+.font-bold{
+	font-weight: bold;
+}
 li,
 ul {
   list-style: none;
@@ -209,6 +241,7 @@ button {
     }
 
     .icon-mine {
+      margin-left: .1rem;
       background: url("../assets/icon-mine.png") no-repeat center;
       background-size: 100% 100%;
     }

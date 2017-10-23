@@ -114,7 +114,6 @@
 					>li{
 						flex: 1;
 						display:inline-block;
-						float: left;
 						text-align: center;
 						padding: .2rem 0;
 						max-width: 1.2rem;
