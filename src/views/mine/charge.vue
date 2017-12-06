@@ -9,7 +9,7 @@
 			<input type="text" placeholder="请输入充值金额"/>
 		</div>
 		<div class="charge-next-box">
-			<button class="common-btn">下一步</button>
+			<button class="btn-large btn-success">下一步</button>
 		</div>
 	</div>
 </template>
@@ -58,11 +58,6 @@
 		.charge-next-box{
 			margin-top: .2rem;
 			padding: .2rem;
-			button{
-				width: 100%;
-				padding: .14rem 0;
-				background: #128FEC;
-			}
 		}
 	}
 </style>
