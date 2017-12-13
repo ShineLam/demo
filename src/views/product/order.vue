@@ -38,7 +38,7 @@
 					<span class="order-act-pay">￥218.65</span>
 					<span class="tip-color">(已省￥559.35)</span>
 				</p>
-				<a href="javascript:void(0)" class="order-pay-btn">结&nbsp;&nbsp;算</a>
+				<a href="javascript:void(0)" class="btn-large btn-common order-pay-btn">结&nbsp;&nbsp;算</a>
 			</div>			
 		</div>
 	</div>
@@ -157,14 +157,6 @@
 					}					
 				}
 				.order-pay-btn{
-					display: inline-block;
-					width: 100%;
-					background: @mainColor;
-					color: #fff;
-					font-size: 0.36rem;
-					height: .7rem;
-					line-height: .7rem;
-					border-radius: .06rem;
 					margin-top: .1rem;
 				}
 			}			

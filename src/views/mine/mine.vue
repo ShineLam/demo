@@ -164,24 +164,29 @@
 				li{
 					flex: 1;
 					text-align: center;
-					i.icon-bill{
+					>a{
 						display: inline-block;
-						width: .6rem;
-						height: .6rem;
-						border-radius: 50%;
-					}
-					i.icon-prepay{
-						background: #fcf7e6 url(../../assets/mine/pay.png) no-repeat center;
-					}
-					i.icon-prerev{
-						background: #fcf7e6 url(../../assets/mine/reve.png) no-repeat center;
-					}
-					i.icon-all-bill{
-						background: #fcf7e6 url(../../assets/mine/all.png) no-repeat center;
-					}
-					p{
-						font-size: .28rem;
-						color: @subColor;
+						width: 100%;
+						height: 100%;
+						i.icon-bill{
+							display: inline-block;
+							width: .6rem;
+							height: .6rem;
+							border-radius: 50%;
+						}
+						i.icon-prepay{
+							background: #fcf7e6 url(../../assets/mine/pay.png) no-repeat center;
+						}
+						i.icon-prerev{
+							background: #fcf7e6 url(../../assets/mine/reve.png) no-repeat center;
+						}
+						i.icon-all-bill{
+							background: #fcf7e6 url(../../assets/mine/all.png) no-repeat center;
+						}
+						p{
+							font-size: .28rem;
+							color: @subColor;
+						}
 					}
 				}
 			}
