@@ -16,8 +16,8 @@
 			</div>
 		</div>
 		<div class="wallet-padding">
-			<a href="javascript: void(0)" class="common-btn">提&nbsp;&nbsp;现</a>
-			<router-link class="wallet-charge-btn common-btn" to="/charge">充&nbsp;&nbsp;值</router-link>
+			<a href="javascript: void(0)" class="btn-large btn-default">提&nbsp;&nbsp;现</a>
+			<router-link class="btn-large btn-success" to="/charge">充&nbsp;&nbsp;值</router-link>
 		</div>
 	</div>
 </template>
@@ -72,7 +72,7 @@
 				margin-bottom: .4rem;
 			}
 			a.wallet-charge-btn{
-				background: #128FEC;
+				background: #1DBD59;
 			}
 		}
 	}
