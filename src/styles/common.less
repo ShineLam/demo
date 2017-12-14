@@ -2,7 +2,7 @@ body {
   font-size: 0.32rem;
   background: #f2f2f2;
 }
-@titleColor: #000;
+@titleColor: #FFF;
 @tipColor: #999;
 @textColor: #1c67c3;
 @subColor: #666;
@@ -10,9 +10,10 @@ body {
 @altColor: #333;
 @lineColor: #ddd;
 
-.tip-color{
-	color: @tipColor;
+.tip-color {
+  color: @tipColor;
 }
+
 .pull-left {
   float: left;
 }
@@ -27,40 +28,48 @@ body {
   clear: both;
   height: 0;
 }
+
 .clearfix {
   zoom: 1;
 }
 
 .text-left {
-    text-align: left !important;
+  text-align: left !important;
 }
 
 .text-center {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 .text-right {
-    text-align: right !important;
+  text-align: right !important;
 }
 // 字体大小
-.font-12{
-   font-size: .24rem; 
+
+.font-12 {
+  font-size: 0.24rem;
 }
-.font-14{
-   font-size: .28rem; 
+
+.font-14 {
+  font-size: 0.28rem;
 }
-.font-16{
-   font-size: .32rem; 
+
+.font-16 {
+  font-size: 0.32rem;
 }
-.font-18{
-   font-size: .36rem; 
+
+.font-18 {
+  font-size: 0.36rem;
 }
-.font-22{
-   font-size: .44rem; 
+
+.font-22 {
+  font-size: 0.44rem;
 }
-.font-bold{
-	font-weight: bold;
+
+.font-bold {
+  font-weight: bold;
 }
+
 li,
 ul {
   list-style: none;
@@ -80,8 +89,8 @@ button {
   background: @mainColor;
   color: #fff;
   text-align: center;
-  border-radius: .08rem;
-  padding: .14rem 0;
+  border-radius: 0.08rem;
+  padding: 0.14rem 0;
   outline: 0;
   border: 0;
 }
@@ -97,10 +106,10 @@ button {
 
 .right-arrow:after {
   content: "";
-  width: .16rem;
-  height: .16rem;
-  border-right: .02rem solid #9a9a9a;
-  border-bottom: .02rem solid #9a9a9a;
+  width: 0.16rem;
+  height: 0.16rem;
+  border-right: 0.02rem solid #9a9a9a;
+  border-bottom: 0.02rem solid #9a9a9a;
   transform: rotate(320deg);
   -webkit-transform: rotate(317deg);
   position: absolute;
@@ -112,10 +121,10 @@ button {
 .left-arrow:before {
   content: "";
   position: absolute;
-  width: .16rem;
-  height: .16rem;
-  border: .02rem solid #ccc;
-  border-width: .02rem 0 0 .02rem;
+  width: 0.16rem;
+  height: 0.16rem;
+  border: 0.02rem solid #ccc;
+  border-width: 0.02rem 0 0 0.02rem;
   -webkit-transform: rotate(315deg);
   transform: rotate(315deg);
   top: 50%;
@@ -133,27 +142,27 @@ button {
 .rearrow:before {
   content: "";
   position: absolute;
-  width: .12rem;
-  height: .12rem;
-  border: .02rem solid @altColor;
-  border-width: 0 0 .02rem .02rem;
+  width: 0.12rem;
+  height: 0.12rem;
+  border: 0.02rem solid @altColor;
+  border-width: 0 0 0.02rem 0.02rem;
   transform: rotate(315deg);
-  top: .06rem;
+  top: 0.06rem;
   right: -0.2rem;
 }
 
 .rearrow:before {
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
-  top: .12rem;
+  top: 0.12rem;
 }
 
 .btn {
   display: inline-block;
   color: @altColor;
-  border-radius: .06rem;
+  border-radius: 0.06rem;
   text-align: center;
-  padding: .08rem 0;
+  padding: 0.08rem 0;
   font-size: 0.28rem;
   text-decoration: none;
   outline: none;
@@ -185,11 +194,13 @@ button {
   top: 0;
   z-index: 999;
   width: 100%;
+
   .nav-box {
     padding: 0 0.2rem;
     height: 1rem;
     line-height: 1rem;
     position: relative;
+
     .nav-left,
     .nav-right {
       position: absolute;
@@ -200,6 +211,7 @@ button {
     .nav-left {
       position: absolute;
       left: 0;
+
       a {
         display: inline-block;
         width: 0.45rem;
@@ -222,8 +234,8 @@ button {
       height: 0.24rem;
       top: 50%;
       margin-top: -0.12rem;
-      border: .04rem solid #fff;
-      border-width: .04rem 0 0 .04rem;
+      border: 0.04rem solid #fff;
+      border-width: 0.04rem 0 0 0.04rem;
     }
 
     .icon-home,
@@ -241,7 +253,7 @@ button {
     }
 
     .icon-mine {
-      margin-left: .1rem;
+      margin-left: 0.1rem;
       background: url("../assets/icon-mine.png") no-repeat center;
       background-size: 100% 100%;
     }
